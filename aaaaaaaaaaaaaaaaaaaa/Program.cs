@@ -83,13 +83,12 @@ class Zepi
 
     public void KluchOneOn()
     {
-        if (sostKluch1)
+        if (sostKluch1 && sostLamp1 && sostLamp3 && sostKluch2)
         {
-            if (sostLamp1 && sostLamp3 && sostKluch2)
-            {
+            
                 Console.WriteLine("Во мне есть ток");
                 TokOnOneKontur();
-            }
+            
         }
         if (sostKluch1)
         {
